@@ -1,0 +1,13 @@
+.ct-background-mask {
+    background: linear-gradient(180deg, #03062F 0%, #180B74 100%);
+    clip-path: polygon(100% 0%, 100% 89%, 92.5% 99.8%, 0% 88.3%, 0% 0%);
+    padding: 40px 0;
+    position: relative;
+    .ct-background-img {
+        position: absolute;
+        bottom: -17%;
+        @media (max-width: 1024px) {
+            bottom: -20%;
+        }
+    }
+}

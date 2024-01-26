@@ -1,0 +1,17 @@
+//Base
+body {
+    color: var(--text-color);
+    font-family: $primary-font;
+    background: var(--light-blue);
+    font-weight: 400;
+}
+
+h1,.h1 {
+  @include define-h1();
+}
+
+p {
+    font-size: $default-font-size;
+    line-height: $default-line-height;
+}
+

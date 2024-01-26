@@ -1,0 +1,8 @@
+//Mixins
+@mixin define-h1($color:var(--text-color)) {
+  font-size: $h1-font-size;
+  line-height: $h1-line-height;
+  font-weight: 600;
+  color: $color;
+  letter-spacing: 0.16px;
+}

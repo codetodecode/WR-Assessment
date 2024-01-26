@@ -1,0 +1,4 @@
+//Buttons
+.btn,.button-primary {
+    @include define-button-primary();
+}

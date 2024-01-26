@@ -1,0 +1,22 @@
+//Form
+form {
+    input {
+        padding: $input-padding;
+        border-radius: $input-border-radius;
+        background: linear-gradient(0deg, #FFFFFF, #FFFFFF),linear-gradient(0deg, rgba(0, 0, 0, 0.12), rgba(0, 0, 0, 0.12));
+        border: 1px solid var(--border-color);
+        font-size: 16px;
+        line-height: 24px;
+        color: var(--input-color);
+    }
+    .form-group {
+        padding-bottom: 24px;
+    }
+
+    textarea {
+        height: 180px;
+        color: var(--input-color);
+        background: linear-gradient(0deg, #FFFFFF, #FFFFFF),
+        linear-gradient(0deg, rgba(0, 0, 0, 0.12), rgba(0, 0, 0, 0.12));
+    }
+}

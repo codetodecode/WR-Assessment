@@ -1,0 +1,13 @@
+//Buttons
+@mixin define-button-primary {
+    background: $button-bg-color;
+	color: $button-text-color;
+    font-size: $button-font-size;
+    line-height: $button-line-height;
+    padding: $button-padding;
+    height: $button-height;
+    font-weight: 700;
+    &:hover,&:focus,&:active {
+        color: $button-text-color;
+    }
+}
